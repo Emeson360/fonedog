@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+    background-color: #1A394F;
+    height: auto;
+}
+
+.navBar {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+.logoCont a {
+    text-decoration: none;
+    color: #BAC3CA;
+    display: inline-block;
+}
+
+.logoCont a span {
+    padding-left: 8px;
+    font-size: 25px;
+}
+
+.menuCont {
+    display: flex;
+}
+
+.menuCont a:hover {
+    color: white;
+}
+
+.products {
+    text-decoration: none;
+    color: #BAC3CA;
+    /* display: block; */
+    padding: 0px 18px;
+    font-size: 18px;
+}
+
+.prodCont {
+    width: 100%;
+}
+
+.prodOverlayCont {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    height: 0;
+    transition: 0.9s ease;
+    background-color: #29465C;
+    width: 100%;
+    overflow: hidden;
+}
+
+.prodOverlay {
+    color: #BAC3CA;
+    padding-left: 70px;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+
+.prodCont:hover .prodOverlayCont {
+    height: 464px;
+    box-shadow: 0px 3px #BAC3CA;
+}
+
+.prodOverlay a {
+    text-decoration: none;
+    color: #BAC3CA;
+    padding: 0px 18px;
+    font-size: 18px;
+}
+
+.prodOverlay li {
+    list-style-type: none;
+    margin-left: -19px;
+    padding-top: 13px;
+}
+
+.w-18 {
+    width: 18%;
+    padding-top: 60px;
+}
+
+.w-28 {
+    width: 25%;
+    padding-top: 60px;
+}
+
+.prodOverlayFooter {
+    width: 100%;
+    background-color: #162E3D;
+    /* display: flex; */
+}
+
+.footerContent {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.something {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.something p {
+    color: #BAC3CA;
+}
+
+.something a {
+    text-decoration: none;
+    color: #BAC3CA;
+    padding-left: 62px;
+}
+
+.footerBtn button {
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.otherMenus {
+    display: flex;
+}
+
+.otherMenus a {
+    text-decoration: none;
+    color: #BAC3CA;
+    display: inline-block;
+    padding: 0px 18px;
+    font-size: 18px;
+}
+
+
+
