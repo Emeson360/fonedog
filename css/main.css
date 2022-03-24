@@ -39,17 +39,17 @@ header {
     color: white;
 }
 
+.prodCont {
+    width: 100%;
+}
+
 .products {
     text-decoration: none;
     color: #BAC3CA;
-    /* display: block; */
     padding: 0px 18px;
     font-size: 18px;
 }
 
-.prodCont {
-    width: 100%;
-}
 
 .prodOverlayCont {
     position: absolute;
@@ -73,7 +73,7 @@ header {
 
 
 .prodCont:hover .prodOverlayCont {
-    height: 464px;
+    height: 430px;
     box-shadow: 0px 3px #BAC3CA;
 }
 
@@ -95,7 +95,7 @@ header {
     padding-top: 60px;
 }
 
-.w-28 {
+.w-25 {
     width: 25%;
     padding-top: 60px;
 }
