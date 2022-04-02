@@ -201,8 +201,17 @@ header {
     border-radius: 20px;
     padding: 80px; 
     text-align: center;
+}
 
- 
+.product-slide::after {
+    content: "";
+    position: absolute;
+    top: 84.5%;
+    left: 50%;
+    margin-left: -15px;
+    border-width: 25px;
+    border-style: solid;
+    border-color: #204D80 transparent transparent transparent;;
 }
 
 .product-slide img {
@@ -220,7 +229,6 @@ header {
     justify-content: center;
     align-items: center;
    margin-top: 30px;
-   /* margin: auto; */
 }
 
 .product-btn1 {
@@ -251,19 +259,3 @@ header {
 
 
 
-/* .test{
-    border: 1px solid red;
-    width: 80px;
-    position: relative;
-    background-color: red;
-} */
-
-/* .test:hover {
-    animation-name: moveRight;
-    animation-duration: 1s;
-}
-
-@keyframes moveRight {
-    from {left: 0;}
-    to {left: 70px;}
-} */
