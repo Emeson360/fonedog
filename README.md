@@ -2,4 +2,4 @@
 
 This is a clone of fonedog website
 
-[Go live](https://www.fonedog-clone.netlify.app "fonedog's homepage")
+[Go live](https://fonedog-clone.netlify.app/ "fonedog's homepage")
